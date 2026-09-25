@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>esn-bots Privacy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p><a href="./">← esn-bots</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 25 September 2026</p>
+
+  <p>This policy covers the esn-bots Telegram assistants, including MaSecretary.
+  esn-bots is an invite-only volunteer project, not an official ESN service.</p>
+
+  <h2>What we store</h2>
+  <ul>
+    <li><strong>Telegram account:</strong> your Telegram user ID, name and settings
+    (time zone, default calendar, reminder preferences).</li>
+    <li><strong>Google connection:</strong> the refresh token Google gives when you
+    connect your account, stored encrypted (AES-GCM).</li>
+    <li><strong>Conversation memory:</strong> your last 10 messages and the IDs of
+    the events you last worked on, deleted automatically after 24 hours.</li>
+    <li><strong>Reminders</strong> you set, until they are sent.</li>
+  </ul>
+  <p>We do not keep a copy of your calendar. Events are read from Google Calendar
+  only when you ask for something.</p>
+
+  <h2>Google user data</h2>
+  <p>With your permission the bot uses the Google Calendar scopes
+  <code>calendar.events</code> and <code>calendar.readonly</code> to list, create,
+  update and delete events in your calendars, only at your request.</p>
+  <p>esn-bots' use and transfer of information received from Google APIs will adhere
+  to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+  API Services User Data Policy</a>, including the Limited Use requirements. Google
+  user data is not sold, not used for advertising and not used to train AI models.</p>
+
+  <h2>Who processes your data</h2>
+  <ul>
+    <li><strong>Amazon Web Services</strong> (Frankfurt, eu-central-1): hosting and storage.</li>
+    <li><strong>Telegram</strong>: delivering messages.</li>
+    <li><strong>AI providers</strong> (Groq, Google Gemini, OpenRouter): your message
+    text, and the calendar details needed to answer it, are sent to one of these
+    providers so the request can be understood. Voice messages are transcribed and
+    photos are read the same way. Some free tiers may keep inputs under their own
+    terms, so do not send anything you would not want processed there.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><code>/disconnect</code> removes your Google connection and deletes the stored token.</li>
+    <li><code>/reset</code> clears conversation memory.</li>
+    <li><code>/deleteme</code> deletes all your data.</li>
+    <li>You can also revoke access anytime at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <h2 lang="tr">Türkçe özet</h2>
+  <p lang="tr">Telegram kimliğin, ayarların ve şifrelenmiş Google bağlantı anahtarın
+  saklanır; son 10 mesajın 24 saat sonra silinir. Takviminin kopyası tutulmaz, yalnız
+  istediğinde okunur. Mesajın, anlaşılması için bir yapay zekâ sağlayıcısına (Groq,
+  Google Gemini, OpenRouter) gönderilir. Veriler AWS Frankfurt'ta durur, satılmaz,
+  reklamda kullanılmaz. <code>/disconnect</code>, <code>/reset</code> ve
+  <code>/deleteme</code> ile bağlantını ya da tüm verini silebilirsin.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:wpa@esnturkey.org">wpa@esnturkey.org</a></p>
+</main>
+</body>
+</html>
